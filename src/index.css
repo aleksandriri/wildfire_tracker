@@ -7,7 +7,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.map{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.location-icon{
+  font-size: 2rem;
+  color: red;
+}
+
+.loader{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.loader img {
+  margin: 0 auto;
 }
