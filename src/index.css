@@ -30,3 +30,16 @@ body {
 .loader img {
   margin: 0 auto;
 }
+
+.location-info {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  padding: 20px;
+  background: rgba(0, 0, 0, .5);
+  color: white;
+  width: 400px;
+}
+.location-info h2{
+  margin-top: 0;
+}
